@@ -18,11 +18,5 @@ bot = commands.Bot(command_prefix=f'{config["prefix"]}') # создаём пер
 async def on_ready(): # ивент в библиотеке discord.py, который срабатывает когда бот включается
 	print(f"Бот вошёл в сеть. Аккаунт: {bot.user}, ID аккаунта: {bot.user.id}") # вывод в консоль информации о том, что бот был запущен 
 
-@bot.command(name='кот')
-async def cat(ctx):
-	response = requests.get('https://aws.random.cat/meow')
-	data = response.json()
-	await message.channel.send(data['file'])
-
 
 bot.run(f'{config["token"]}') # запуск бота, надо вставить токен бота который можно получить зайдя в https://discord.com/developers/applications в приложение вашего бота

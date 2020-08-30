@@ -5,13 +5,11 @@ import json # модуль для работы с json
 
 import asyncio # для работы с await и async
 
-import requests # для работы с сайтами
-
 
 config = json.load(open("config.json")) # конфиг
 
 
-bot = commands.Bot(command_prefix=f'{config["prefix"]}') # создаём переменную с ботом под названием bot, выставляя стандартный префикс !, можно поменять
+bot = commands.Bot(command_prefix=f'{config["prefix"]}', case_insensitive=True) # создаём переменную с ботом под названием bot, выставляя стандартный префикс !, можно поменять
 
 
 @bot.event

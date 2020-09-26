@@ -1,0 +1,54 @@
+[discord]
+token = "blyat"
+kick_members = "Выгонять участников"
+ban_members = "Блокировать участников"
+administrator = "Администратор"
+manage_channels = "Управлять каналами"
+manage_guild = "Управлять сервером"
+add_reactions = "Добавлять реакции"
+view_audit_log = "Просмотр журнала аудита"
+priority_speaker = "Приоритетный голос"
+stream = "Видео"
+read_messages = "Читать сообщения"
+view_channel = "Просматривать канал"
+send_messages = "Отправлять сообщения"
+send_tts_messages = "Отправлять tts-сообщения"
+manage_messages = "Управлять сообщениями"
+manage_emojis = "Управлять эмодзи"
+manage_webhooks = "Управлять вебхуками"
+manage_roles = "Управлять ролями"
+manage_nicknames = "Управлять никнеймами"
+change_nickname = "Изменять никнейм"
+use_voice_activation = "Активация по голосу"
+move_members = "Перемещать участников"
+deafen_members = "Отключать звук участникам"
+mute_members = "Отключать голос участникам"
+speak = "Говорить"
+connect = "Подключаться"
+embed_links = "Вставлять ссылки"
+attach_files = "Прикреплять файлы"
+read_message_history = "Читать историю сообщений"
+mention_everyone = "Упоминать @everyone, @here и все роли"
+use_external_emojis = "Использовать эмодзи с других серверов"
+view_guild_insights = "Смотреть аналитику сервера"
+
+[bot]
+prefix = "."
+
+[messages.errors.success_line]
+emoji = "<:normal_line:749986920578416734>"
+repeat = 14
+color = 0x6ee51f
+
+[messages.errors.standard_line]
+emoji = "<:standart_line:749988256350863461>"
+repeat = 14
+color = 0xadadad
+
+[messages.errors.error_line]
+emoji = "<:error_line:749986920700051518>"
+repeat = 14
+color = 0xff3d43
+
+[messages.errors]
+invisible_symbol = "⠀"
